@@ -14,6 +14,7 @@ class App < Sinatra::Base
 
   post '/api/send' do 
     sleep 3
+    # could actually send this somewhere
     { result: true }.to_json
   end
 end
