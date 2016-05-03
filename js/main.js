@@ -79,7 +79,7 @@ app.controller('ContentController', ['$scope', '$rootScope', 'mailService', func
 	  $scope.showingReply = !$scope.showingReply;
 	  $scope.reply = {};
 	  $scope.reply.to = $scope.selectedMail.from.join(', ');
-	  $scope.reply.body = "\n\n ---------------------------- \n\n" + $scope.selectedMail.body;
+	  $scope.reply.body = "\n\n ------------------------------------------------- \n\n" + $scope.selectedMail.body;
 	};
 
 	$scope.sendReply = function() {
