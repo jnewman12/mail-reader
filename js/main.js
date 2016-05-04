@@ -99,7 +99,6 @@ app.controller('ContentController', ['$scope', '$rootScope', 'mailService', func
 	});
 }]);
 
-
 app.controller('SettingsController', function($scope) {
 	$scope.settings = {
 		name: 'James',

@@ -18,6 +18,7 @@ input.ng-invalid-minlength.ng-dirty { border: 1px solid blue; }*/
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
 .emailListing {
   border-radius: 3px;
   -moz-border-radius: 3px;
@@ -25,19 +26,24 @@ input.ng-invalid-minlength.ng-dirty { border: 1px solid blue; }*/
   overflow: hidden;
   padding: 13px;
 }
+
 .emailListing img {
 }
+
 .emailListing .date {
   font-size: 0.5em;
   color: blue;
   display: none;
 }
+
 .emailListing .subject {
   font-size: 0.8em;
 }
+
 .emailListing:hover {
   background-color: #eee;
 }
+
 #emailListing .selected {
   background-color: #bbb;
 }

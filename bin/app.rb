@@ -1,4 +1,5 @@
 require 'json'
+require 'sinatra'
 
 class App < Sinatra::Base
   set :root, File.join(File.dirname(__FILE__), "..")
@@ -15,6 +16,7 @@ class App < Sinatra::Base
   post '/api/send' do 
     sleep 3
     # could actually send this somewhere
+    # like to myself :)
     { result: true }.to_json
   end
 end
