@@ -65,7 +65,9 @@ app.controller('MailListingController', ['$scope', 'mailService',
 		.success(function(data, status, headers) {
 			$scope.email = data.all
 		})
-		.error(function(data, status, headers){/* handle error */});
+		.error(function(data, status, headers){
+		  /* handle error */
+	  });
   }
 ]);
 
